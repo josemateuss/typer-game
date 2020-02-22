@@ -1,0 +1,38 @@
+.frase{
+	font-size: 20px;
+	/*text-align: left;*/ 
+}
+
+.campo-digitacao{
+	font-size: 20px;
+	height: 120px;
+	border: 3px solid black;
+}
+
+.campo-desativado{
+	background-color: lightgray;
+}
+
+.campo-ativado{
+	background-color: white;
+}
+
+.icones{
+	vertical-align: middle;
+}
+
+.campo-correto{
+	border: 3px solid green;
+}
+
+.campo-errado{
+	border: 3px solid red;
+}
+
+.placar{
+	display: none;
+}
+
+body{
+	overflow: scroll; /* separa o espaço lateral da barra de rolagem */
+}
